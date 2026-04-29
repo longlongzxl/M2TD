@@ -1,7 +1,7 @@
 # MSDT: Multi-Sensor Degraded Tunnels Dataset
 
 <p align="center">
-  <img src="assets/figures/overview.png" width="900">
+  <img src="fig/overview.png" width="900">
 </p>
 
 <p align="center">
