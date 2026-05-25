@@ -1,5 +1,13 @@
 # M2TD: Multi-Sensor and Multi-Platform Tunnel Dataset
 
+## News
+
+- **Under submission**: The M2TD paper is currently under submission.
+- Dataset download links will be updated after the release policy is finalized.
+- Baseline configurations and evaluation scripts will be updated progressively.
+
+---
+
 <p align="center">
   <img src="fig/overview.png" width="900">
 </p>
@@ -42,14 +50,6 @@ M2TD is intended to support research on:
 
 ---
 
-## News
-
-- **Under submission**: The M2TD paper is currently under submission.
-- Dataset download links will be updated after the release policy is finalized.
-- Baseline configurations and evaluation scripts will be updated progressively.
-
----
-
 ## Key Features
 
 - **Dedicated tunnel benchmark**: long degraded tunnels with repetitive structures, weak texture, poor illumination, limited geometry, and GNSS denial.
@@ -69,7 +69,7 @@ The full dataset is distributed through external storage because ROS2 bag files 
 
 | Sequence ID    | Platform       | Location | Length (m) | Size | Download |
 | -------------- | -------------- | :--------: | :---------: | ---: | :--------: |
-| QD-UAV-01      | UAV            | Qingdao  |        296 | 893M | [Link](https://www.bilibili.com/) |
+| QD-UAV-01      | UAV            | Qingdao  |        296 | 893M | [Link](#) |
 | QD-UAV-02      | UAV            | Qingdao  |        201 | 903M | [Link](#) |
 | QD-Handheld-01 | Handheld       | Qingdao  |        783 |  11G | [Link](#) |
 | QD-GV-01       | Ground vehicle | Qingdao  |        917 | 8.1G | [Link](#) |
