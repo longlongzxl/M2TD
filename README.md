@@ -67,17 +67,17 @@ The full dataset is distributed through external storage because ROS2 bag files 
 
 > Please replace the placeholders below with the final release links.
 
-| Sequence ID    | Platform       | Location | Length (m) | Download |
-| -------------- | -------------- | -------- | ---------: | -------- |
-| QD-UAV-01      | UAV            | Qingdao  |        296 | [Link](#)   |
-| QD-UAV-02      | UAV            | Qingdao  |        201 | [Link](#)   |
-| QD-Handheld-01 | Handheld       | Qingdao  |        783 | [Link](#)   |
-| QD-GV-01       | Ground vehicle | Qingdao  |        917 | [Link](#)   |
-| DL-Handheld-01 | Handheld       | Dalian   |        321 | [Link](#)   |
-| DL-GV-01       | Ground vehicle | Dalian   |        294 | [Link](#)   |
-| DL-GV-02       | Ground vehicle | Dalian   |       1105 | [Link](#)   |
-| DL-GV-03       | Ground vehicle | Dalian   |        513 | [Link](#)   |
-| DL-GV-04       | Ground vehicle | Dalian   |        416 | [Link](#)   |
+| Sequence ID    | Platform       | Location | Length (m) | Size | Download |
+| -------------- | -------------- | -------- | ---------: | ---: | -------- |
+| QD-UAV-01      | UAV            | Qingdao  |        296 | 893M | [Link](#) |
+| QD-UAV-02      | UAV            | Qingdao  |        201 | 903M | [Link](#) |
+| QD-Handheld-01 | Handheld       | Qingdao  |        783 |  11G | [Link](#) |
+| QD-GV-01       | Ground vehicle | Qingdao  |        917 | 8.1G | [Link](#) |
+| DL-Handheld-01 | Handheld       | Dalian   |        321 | 4.2G | [Link](#) |
+| DL-GV-01       | Ground vehicle | Dalian   |        294 | 1.6G | [Link](#) |
+| DL-GV-02       | Ground vehicle | Dalian   |       1105 |  11G | [Link](#) |
+| DL-GV-03       | Ground vehicle | Dalian   |        513 | 2.2G | [Link](#) |
+| DL-GV-04       | Ground vehicle | Dalian   |        416 | 2.1G | [Link](#) |
 
 Recommended mirror:
 
@@ -89,17 +89,17 @@ Recommended mirror:
 
 M2TD contains **9 tunnel sequences** with a total trajectory length of **4.85 km**.
 
-| Sequence ID    | Platform       | Location | Length (m) | Duration (s) | Closed loop |
-| -------------- | -------------- | -------- | ---------: | -----------: | ----------- |
-| QD-UAV-01      | UAV            | Qingdao  |        296 |          229 | Yes         |
-| QD-UAV-02      | UAV            | Qingdao  |        201 |          230 | Yes         |
-| QD-Handheld-01 | Handheld       | Qingdao  |        783 |          627 | Yes         |
-| QD-GV-01       | Ground vehicle | Qingdao  |        917 |          457 | Yes         |
-| DL-Handheld-01 | Handheld       | Dalian   |        321 |          239 | Yes         |
-| DL-GV-01       | Ground vehicle | Dalian   |        294 |           89 | No          |
-| DL-GV-02       | Ground vehicle | Dalian   |       1105 |          243 | No          |
-| DL-GV-03       | Ground vehicle | Dalian   |        513 |          123 | No          |
-| DL-GV-04       | Ground vehicle | Dalian   |        416 |          116 | No          |
+| Sequence ID    | Platform       | Location | Length (m) | Duration (s) | Size | Closed loop |
+| -------------- | -------------- | -------- | ---------: | -----------: | ---: | ----------- |
+| QD-UAV-01      | UAV            | Qingdao  |        296 |          229 | 893M | Yes         |
+| QD-UAV-02      | UAV            | Qingdao  |        201 |          230 | 903M | Yes         |
+| QD-Handheld-01 | Handheld       | Qingdao  |        783 |          627 |  11G | Yes         |
+| QD-GV-01       | Ground vehicle | Qingdao  |        917 |          457 | 8.1G | Yes         |
+| DL-Handheld-01 | Handheld       | Dalian   |        321 |          239 | 4.2G | Yes         |
+| DL-GV-01       | Ground vehicle | Dalian   |        294 |           89 | 1.6G | No          |
+| DL-GV-02       | Ground vehicle | Dalian   |       1105 |          243 |  11G | No          |
+| DL-GV-03       | Ground vehicle | Dalian   |        513 |          123 | 2.2G | No          |
+| DL-GV-04       | Ground vehicle | Dalian   |        416 |          116 | 2.1G | No          |
 
 ### Sequence naming convention
 
