@@ -68,7 +68,7 @@ The full dataset is distributed through external storage because ROS2 bag files 
 > Please replace the placeholders below with the final release links.
 
 | Sequence ID    | Platform       | Location | Length (m) | Size | Download |
-| -------------- | -------------- | -------- | ---------: | ---: | :--------: |
+| -------------- | -------------- | :--------: | :---------: | ---: | :--------: |
 | QD-UAV-01      | UAV            | Qingdao  |        296 | 893M | [Link](#) |
 | QD-UAV-02      | UAV            | Qingdao  |        201 | 903M | [Link](#) |
 | QD-Handheld-01 | Handheld       | Qingdao  |        783 |  11G | [Link](#) |
