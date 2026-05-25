@@ -4,7 +4,7 @@
 
 - **Under submission**: The M2TD paper is currently under submission.
 - Dataset download links will be updated after the release policy is finalized.
-- Baseline configurations and evaluation scripts will be updated progressively.
+
 
 ---
 
