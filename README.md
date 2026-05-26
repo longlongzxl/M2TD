@@ -81,7 +81,7 @@ The full dataset is distributed through external storage because ROS2 bag files 
 
 Recommended mirror:
 
-- OneDrive: [Link](#)
+- OneDrive: [Coming soon](#)
 
 ---
 
