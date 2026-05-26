@@ -90,7 +90,7 @@ Recommended mirror:
 M2TD contains **9 tunnel sequences** with a total trajectory length of **4.85 km**.
 
 | Sequence ID    | Platform       | Location | Length (m) | Duration (s) |  Closed loop |
-| -------------- | -------------- | -------- | ---------: | :-----------: |  :-----------: |
+| -------------- | -------------- | -------- | :---------: | :-----------: |  :-----------: |
 | QD-UAV-01      | UAV            | Qingdao  |        296 |          229 |  Yes         |
 | QD-UAV-02      | UAV            | Qingdao  |        201 |          230 |  Yes         |
 | QD-Handheld-01 | Handheld       | Qingdao  |        783 |          627 |  Yes         |
