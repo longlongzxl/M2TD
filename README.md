@@ -149,7 +149,7 @@ Included sequences:
 ## Sensor Suite
 
 | Sensor type | Model                  | Key parameters                                                            | ROS2 frequency |
-| ----------- | ---------------------- | ------------------------------------------------------------------------- | -------------: |
+| :-----------: | :----------------------: | :-------------------------------------------------------------------------: | :-------------: |
 | LiDAR       | Livox Mid-360          | FoV: 360° × 59°; range: 40 m                                           |          10 Hz |
 | LiDAR       | Livox Avia             | FoV: 70.4° × 77.2°; range: 450 m                                       |          10 Hz |
 | IMU         | ICM-40609-D / BMI088   | Built-in 6-axis MEMS IMUs in Livox LiDARs                                 |         200 Hz |
@@ -159,7 +159,7 @@ Included sequences:
 ### Platform-specific configuration
 
 | Platform       | Main sensors                                                       |
-| -------------- | ------------------------------------------------------------------ |
+| :--------------: | ------------------------------------------------------------------ |
 | UAV            | Livox Mid-360, built-in IMU, UWB tag                               |
 | Handheld       | Livox Mid-360, Livox Avia, built-in IMUs, Hikrobot camera, UWB tag |
 | Ground vehicle | Livox Mid-360, Livox Avia, built-in IMUs, Hikrobot camera, UWB tag |
@@ -207,7 +207,7 @@ For each sequence, the inner folder such as `DL_GV_01/` is the ROS2 bag director
 Typical ROS2 topics include:
 
 | Topic                  | Description                 |
-| ---------------------- | --------------------------- |
+| :---------------------- | :--------------------------- |
 | `/livox/mid360`      | Livox Mid-360 point cloud   |
 | `/livox/avia`        | Livox Avia point cloud      |
 | `/livox/imu_mid`     | IMU data from Livox Mid-360 |
