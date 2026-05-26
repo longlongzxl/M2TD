@@ -69,15 +69,15 @@ The full dataset is distributed through external storage because ROS2 bag files 
 
 | Sequence ID    | Platform       | Location | Length (m) | Size | Download |
 | -------------- | -------------- | :--------: | :---------: | ---: | :--------: |
-| QD-UAV-01      | UAV            | Qingdao  |        296 | 893M | [Link](#) |
-| QD-UAV-02      | UAV            | Qingdao  |        201 | 903M | [Link](#) |
+| QD-UAV-01      | UAV            | Qingdao  |        296 | 893M | [Link](https://pan.baidu.com/s/1EiITCcblG6Ieo9OWy4_U_A?pwd=vb2j) |
+| QD-UAV-02      | UAV            | Qingdao  |        201 | 903M | [Link](https://pan.baidu.com/s/1xVGEnOOuXMi5ABN9-bQPFw?pwd=a4a5) |
 | QD-Handheld-01 | Handheld       | Qingdao  |        783 |  11G | [Link](#) |
 | QD-GV-01       | Ground vehicle | Qingdao  |        917 | 8.1G | [Link](#) |
-| DL-Handheld-01 | Handheld       | Dalian   |        321 | 4.2G | [Link](#) |
-| DL-GV-01       | Ground vehicle | Dalian   |        294 | 1.6G | [Link](#) |
-| DL-GV-02       | Ground vehicle | Dalian   |       1105 |  11G | [Link](#) |
-| DL-GV-03       | Ground vehicle | Dalian   |        513 | 2.2G | [Link](#) |
-| DL-GV-04       | Ground vehicle | Dalian   |        416 | 2.1G | [Link](#) |
+| DL-Handheld-01 | Handheld       | Dalian   |        321 | 4.2G | [Link](https://pan.baidu.com/s/10rvUB2_B-dreGG40BLoaFA?pwd=7qe2) |
+| DL-GV-01       | Ground vehicle | Dalian   |        294 | 1.6G | [Link](https://pan.baidu.com/s/1cOXQe4XJ41retTOhxby6dQ?pwd=attk) |
+| DL-GV-02       | Ground vehicle | Dalian   |       1105 |  11G | [Link](https://pan.baidu.com/s/1BmPcoc2dl7--Updt5WYDCw?pwd=uckh) |
+| DL-GV-03       | Ground vehicle | Dalian   |        513 | 2.2G | [Link](https://pan.baidu.com/s/1lSkF3t7l7bSLTaGTrpGbmw?pwd=8j3p) |
+| DL-GV-04       | Ground vehicle | Dalian   |        416 | 2.1G | [Link](https://pan.baidu.com/s/1RKtGQqij898BTMmNeuo90A?pwd=mucc) |
 
 Recommended mirror:
 
