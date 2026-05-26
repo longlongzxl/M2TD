@@ -89,17 +89,17 @@ Recommended mirror:
 
 M2TD contains **9 tunnel sequences** with a total trajectory length of **4.85 km**.
 
-| Sequence ID    | Platform       | Location | Length (m) | Duration (s) | Size | Closed loop |
-| -------------- | -------------- | -------- | ---------: | -----------: | ---: | ----------- |
-| QD-UAV-01      | UAV            | Qingdao  |        296 |          229 | 893M | Yes         |
-| QD-UAV-02      | UAV            | Qingdao  |        201 |          230 | 903M | Yes         |
-| QD-Handheld-01 | Handheld       | Qingdao  |        783 |          627 |  11G | Yes         |
-| QD-GV-01       | Ground vehicle | Qingdao  |        917 |          457 | 8.1G | Yes         |
-| DL-Handheld-01 | Handheld       | Dalian   |        321 |          239 | 4.2G | Yes         |
-| DL-GV-01       | Ground vehicle | Dalian   |        294 |           89 | 1.6G | No          |
-| DL-GV-02       | Ground vehicle | Dalian   |       1105 |          243 |  11G | No          |
-| DL-GV-03       | Ground vehicle | Dalian   |        513 |          123 | 2.2G | No          |
-| DL-GV-04       | Ground vehicle | Dalian   |        416 |          116 | 2.1G | No          |
+| Sequence ID    | Platform       | Location | Length (m) | Duration (s) |  Closed loop |
+| -------------- | -------------- | -------- | ---------: | :-----------: |  :-----------: |
+| QD-UAV-01      | UAV            | Qingdao  |        296 |          229 |  Yes         |
+| QD-UAV-02      | UAV            | Qingdao  |        201 |          230 |  Yes         |
+| QD-Handheld-01 | Handheld       | Qingdao  |        783 |          627 |  Yes         |
+| QD-GV-01       | Ground vehicle | Qingdao  |        917 |          457 |  Yes         |
+| DL-Handheld-01 | Handheld       | Dalian   |        321 |          239 |  Yes         |
+| DL-GV-01       | Ground vehicle | Dalian   |        294 |           89 |  No          |
+| DL-GV-02       | Ground vehicle | Dalian   |       1105 |          243 |  No          |
+| DL-GV-03       | Ground vehicle | Dalian   |        513 |          123 |  No          |
+| DL-GV-04       | Ground vehicle | Dalian   |        416 |          116 |  No          |
 
 ### Sequence naming convention
 
