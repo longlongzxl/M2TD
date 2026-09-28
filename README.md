@@ -22,7 +22,6 @@
   <a href="#dataset-summary">Dataset Summary</a> •
   <a href="#sensor-suite">Sensor Suite</a> •
   <a href="#data-format">Data Format</a> •
-  <a href="#ground-truth">Ground Truth</a> •
   <a href="#citation">Citation</a>
 </p>
 
@@ -32,7 +31,7 @@
 
 **M2TD** is a **Multi-Sensor and Multi-Platform Tunnel Dataset** for benchmarking SLAM algorithms in long degraded tunnel environments. The dataset is designed to evaluate localization and mapping robustness under persistent tunnel-specific degradation, including repetitive structures, weak visual texture, poor illumination, limited geometric diversity, and GNSS denial.
 
-M2TD contains **9 sequences** and **4.85 km** of trajectories collected in one unfinished subsea tunnel in **Qingdao, China**, and five operational traffic tunnels in **Dalian, China**. The data were collected using three acquisition modes:
+M2TD contains **12 sequences** and **6.6 km** of trajectories collected in one unfinished subsea tunnel in **Qingdao, China**, and operational traffic tunnels in **Dalian, China**. The data were collected using three acquisition modes:
 
 - **UAV-based acquisition**
 - **Handheld acquisition**
@@ -64,19 +63,22 @@ M2TD is intended to support research on:
 
 The full dataset is distributed through external storage because ROS2 bag files are too large for direct GitHub hosting.
 
-> Please replace the placeholders below with the final release links.
+Lengths are travel distances estimated from the original UWB ranges. Download links and file sizes for DL-GV-05 to DL-GV-07 are pending.
 
 | Sequence ID    | Platform       | Location | Length (m) | Size | Download |
 | -------------- | -------------- | :--------: | :---------: | ---: | :--------: |
-| QD-UAV-01      | UAV            | Qingdao  |        296 | 893M | [Link](https://pan.baidu.com/s/1EiITCcblG6Ieo9OWy4_U_A?pwd=vb2j) |
-| QD-UAV-02      | UAV            | Qingdao  |        201 | 903M | [Link](https://pan.baidu.com/s/1xVGEnOOuXMi5ABN9-bQPFw?pwd=a4a5) |
-| QD-Handheld-01 | Handheld       | Qingdao  |        783 |  11G | [Link](https://pan.baidu.com/s/1uj7uXCt_r4meXEn00R9NKg?pwd=gxj4) |
-| QD-GV-01       | Ground vehicle | Qingdao  |        917 | 8.1G | [Link](https://pan.baidu.com/s/1vG3Yqgl4IZxWlyhL5grK0Q?pwd=9xdk) |
-| DL-Handheld-01 | Handheld       | Dalian   |        321 | 4.2G | [Link](https://pan.baidu.com/s/10rvUB2_B-dreGG40BLoaFA?pwd=7qe2) |
-| DL-GV-01       | Ground vehicle | Dalian   |        294 | 1.6G | [Link](https://pan.baidu.com/s/1cOXQe4XJ41retTOhxby6dQ?pwd=attk) |
-| DL-GV-02       | Ground vehicle | Dalian   |       1105 |  11G | [Link](https://pan.baidu.com/s/1BmPcoc2dl7--Updt5WYDCw?pwd=uckh) |
-| DL-GV-03       | Ground vehicle | Dalian   |        513 | 2.2G | [Link](https://pan.baidu.com/s/1lSkF3t7l7bSLTaGTrpGbmw?pwd=8j3p) |
-| DL-GV-04       | Ground vehicle | Dalian   |        416 | 2.1G | [Link](https://pan.baidu.com/s/1RKtGQqij898BTMmNeuo90A?pwd=mucc) |
+| QD-UAV-01      | UAV            | Qingdao  |        287 | 893M | [Link](https://pan.baidu.com/s/1EiITCcblG6Ieo9OWy4_U_A?pwd=vb2j) |
+| QD-UAV-02      | UAV            | Qingdao  |        198 | 903M | [Link](https://pan.baidu.com/s/1xVGEnOOuXMi5ABN9-bQPFw?pwd=a4a5) |
+| QD-Handheld-01 | Handheld       | Qingdao  |        780 |  11G | [Link](https://pan.baidu.com/s/1uj7uXCt_r4meXEn00R9NKg?pwd=gxj4) |
+| QD-GV-01       | Ground vehicle | Qingdao  |        921 | 8.1G | [Link](https://pan.baidu.com/s/1vG3Yqgl4IZxWlyhL5grK0Q?pwd=9xdk) |
+| DL-Handheld-01 | Handheld       | Dalian   |        318 | 4.2G | [Link](https://pan.baidu.com/s/10rvUB2_B-dreGG40BLoaFA?pwd=7qe2) |
+| DL-GV-01       | Ground vehicle | Dalian   |        292 | 1.6G | [Link](https://pan.baidu.com/s/1cOXQe4XJ41retTOhxby6dQ?pwd=attk) |
+| DL-GV-02       | Ground vehicle | Dalian   |       1108 |  11G | [Link](https://pan.baidu.com/s/1BmPcoc2dl7--Updt5WYDCw?pwd=uckh) |
+| DL-GV-03       | Ground vehicle | Dalian   |        510 | 2.2G | [Link](https://pan.baidu.com/s/1lSkF3t7l7bSLTaGTrpGbmw?pwd=8j3p) |
+| DL-GV-04       | Ground vehicle | Dalian   |        410 | 2.1G | [Link](https://pan.baidu.com/s/1RKtGQqij898BTMmNeuo90A?pwd=mucc) |
+| DL-GV-05      | Ground vehicle | Dalian   |        194 | Pending | Pending |
+| DL-GV-06      | Ground vehicle | Dalian   |       1118 | Pending | Pending |
+| DL-GV-07      | Ground vehicle | Dalian   |        512 | Pending | Pending |
 
 Recommended mirror:
 
@@ -86,19 +88,22 @@ Recommended mirror:
 
 ## Dataset Summary
 
-M2TD contains **9 tunnel sequences** with a total trajectory length of **4.85 km**.
+M2TD contains **12 tunnel sequences** with a total trajectory length of **6.6 km**. Sequence lengths are travel distances estimated from the original UWB ranges.
 
 | Sequence ID    | Platform       | Location | Length (m) | Duration (s) |  Closed loop |
 | -------------- | -------------- | -------- | :---------: | :-----------: |  :-----------: |
-| QD-UAV-01      | UAV            | Qingdao  |        296 |          229 |  Yes         |
-| QD-UAV-02      | UAV            | Qingdao  |        201 |          230 |  Yes         |
-| QD-Handheld-01 | Handheld       | Qingdao  |        783 |          627 |  Yes         |
-| QD-GV-01       | Ground vehicle | Qingdao  |        917 |          457 |  Yes         |
-| DL-Handheld-01 | Handheld       | Dalian   |        321 |          239 |  Yes         |
-| DL-GV-01       | Ground vehicle | Dalian   |        294 |           89 |  No          |
-| DL-GV-02       | Ground vehicle | Dalian   |       1105 |          243 |  No          |
-| DL-GV-03       | Ground vehicle | Dalian   |        513 |          123 |  No          |
-| DL-GV-04       | Ground vehicle | Dalian   |        416 |          116 |  No          |
+| QD-UAV-01      | UAV            | Qingdao  |        287 |          174 |  Yes         |
+| QD-UAV-02      | UAV            | Qingdao  |        198 |          213 |  Yes         |
+| QD-Handheld-01 | Handheld       | Qingdao  |        780 |          606 |  Yes         |
+| QD-GV-01       | Ground vehicle | Qingdao  |        921 |          457 |  Yes         |
+| DL-Handheld-01 | Handheld       | Dalian   |        318 |          239 |  Yes         |
+| DL-GV-01       | Ground vehicle | Dalian   |        292 |           89 |  No          |
+| DL-GV-02       | Ground vehicle | Dalian   |       1108 |          243 |  No          |
+| DL-GV-03       | Ground vehicle | Dalian   |        510 |          123 |  No          |
+| DL-GV-04       | Ground vehicle | Dalian   |        410 |          116 |  No          |
+| DL-GV-05      | Ground vehicle | Dalian   |        194 |           53 |  No          |
+| DL-GV-06      | Ground vehicle | Dalian   |       1118 |          267 |  No          |
+| DL-GV-07      | Ground vehicle | Dalian   |        512 |           98 |  No          |
 
 ### Sequence naming convention
 
@@ -133,7 +138,7 @@ Included sequences:
 
 ### Dalian operational traffic tunnels
 
-The Dalian sequences were collected in operational traffic tunnels with standard infrastructure and lighting. These sequences include long straight tunnel segments and one-way traversals, which are useful for evaluating long-range drift accumulation.
+The Dalian sequences were collected in operational traffic tunnels with standard infrastructure and lighting. These sequences include long straight tunnel segments and one-way traversals, which are useful for evaluating long-range drift accumulation. The longest sequence, DL-GV-06, extends to 1118 m.
 
 Included sequences:
 
@@ -142,6 +147,9 @@ Included sequences:
 - `DL-GV-02`
 - `DL-GV-03`
 - `DL-GV-04`
+- `DL-GV-05`
+- `DL-GV-06`
+- `DL-GV-07`
 
 ---
 
@@ -215,39 +223,6 @@ Typical ROS2 topics include:
 | `/uwb_tag`           | UWB ranging measurement     |
 
 Topic availability varies across platforms. For example, UAV sequences do not include the Livox Avia or camera streams.
-
----
-
-## Ground Truth
-
-The reference trajectories are generated by **LGAT: Low-Cost Ground-Truth Acquisition for Tunnels**.
-
-LGAT tightly couples LiDAR, IMU, and UWB measurements within a sequential-update iterated error-state Kalman filter. IMU measurements provide high-rate state propagation, LiDAR scans provide local geometric constraints after motion compensation, and UWB measurements provide anchor-relative range and range-gradient constraints.
-
-The framework requires only a **single UWB anchor**, reducing the deployment complexity compared with robotic total stations, motion-capture systems, or high-grade INS systems.
-
-### Ground-truth validation
-
-The generated trajectories were validated using three complementary analyses:
-
-- **Trajectory-length validation** on known-length tunnel sequences
-- **Loop-closure validation** on round-trip sequences
-- **Point-cloud consistency validation** in revisited tunnel regions
-
-In the paper evaluation, LGAT achieves relative length errors below **0.5%** on known-length tunnels and loop-closure errors below **1 m** on all looped sequences.
-
----
-
-## Baselines
-
-The following representative SLAM methods are evaluated in the paper:
-
-| Category                                     | Methods                          |
-| -------------------------------------------- | -------------------------------- |
-| General-purpose SLAM                         | FAST-LIO2, Point-LIO, FAST-LIVO2 |
-| Degradation-aware / degenerate-scene methods | IGE-LIO, GenZ-ICP, DA-LIO        |
-
-Baseline configurations and evaluation scripts will be released in this repository when available.
 
 ---
 
