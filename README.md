@@ -63,7 +63,7 @@ M2TD is intended to support research on:
 
 The full dataset is distributed through external storage because ROS2 bag files are too large for direct GitHub hosting.
 
-Lengths are travel distances estimated from the original UWB ranges. The download link and file size for DL-GV-06 are pending.
+Lengths are travel distances estimated from the original UWB ranges.
 
 | Sequence ID    | Platform       | Location | Length (m) | Size | Download |
 | -------------- | -------------- | :--------: | :---------: | ---: | :--------: |
@@ -77,7 +77,7 @@ Lengths are travel distances estimated from the original UWB ranges. The downloa
 | DL-GV-03       | Ground vehicle | Dalian   |        510 | 2.2G | [Link](https://pan.baidu.com/s/1lSkF3t7l7bSLTaGTrpGbmw?pwd=8j3p) |
 | DL-GV-04       | Ground vehicle | Dalian   |        410 | 2.1G | [Link](https://pan.baidu.com/s/1RKtGQqij898BTMmNeuo90A?pwd=mucc) |
 | DL-GV-05      | Ground vehicle | Dalian   |        194 | 955M | [Link](https://pan.baidu.com/s/1S-pgGUHFRROoBBkqWG_HOg?pwd=qcie) |
-| DL-GV-06      | Ground vehicle | Dalian   |       1118 | Pending | Pending |
+| DL-GV-06      | Ground vehicle | Dalian   |       1118 | 5.0G | [Link](https://pan.baidu.com/s/1B3NyoBhGZx1j2XxXspjl1g?pwd=kf9y) |
 | DL-GV-07      | Ground vehicle | Dalian   |        512 | 1.72G | [Link](https://pan.baidu.com/s/1usjxaykVuC09chJc7Y8VKg?pwd=n434) |
 
 Recommended mirror:
