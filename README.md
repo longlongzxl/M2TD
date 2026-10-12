@@ -63,7 +63,7 @@ M2TD is intended to support research on:
 
 The full dataset is distributed through external storage because ROS2 bag files are too large for direct GitHub hosting.
 
-Lengths are travel distances estimated from the original UWB ranges. Download links and file sizes for DL-GV-06 and DL-GV-07 are pending.
+Lengths are travel distances estimated from the original UWB ranges. The download link and file size for DL-GV-06 are pending.
 
 | Sequence ID    | Platform       | Location | Length (m) | Size | Download |
 | -------------- | -------------- | :--------: | :---------: | ---: | :--------: |
@@ -78,7 +78,7 @@ Lengths are travel distances estimated from the original UWB ranges. Download li
 | DL-GV-04       | Ground vehicle | Dalian   |        410 | 2.1G | [Link](https://pan.baidu.com/s/1RKtGQqij898BTMmNeuo90A?pwd=mucc) |
 | DL-GV-05      | Ground vehicle | Dalian   |        194 | 955M | [Link](https://pan.baidu.com/s/1S-pgGUHFRROoBBkqWG_HOg?pwd=qcie) |
 | DL-GV-06      | Ground vehicle | Dalian   |       1118 | Pending | Pending |
-| DL-GV-07      | Ground vehicle | Dalian   |        512 | Pending | Pending |
+| DL-GV-07      | Ground vehicle | Dalian   |        512 | 1.72G | [Link](https://pan.baidu.com/s/1usjxaykVuC09chJc7Y8VKg?pwd=n434) |
 
 Recommended mirror:
 
