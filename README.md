@@ -77,8 +77,7 @@ Lengths are travel distances estimated from the original UWB ranges.
 | DL-GV-03       | Ground vehicle | Dalian   |        510 | 2.2G | [Link](https://pan.baidu.com/s/1lSkF3t7l7bSLTaGTrpGbmw?pwd=8j3p) |
 | DL-GV-04       | Ground vehicle | Dalian   |        410 | 2.1G | [Link](https://pan.baidu.com/s/1RKtGQqij898BTMmNeuo90A?pwd=mucc) |
 | DL-GV-05      | Ground vehicle | Dalian   |        194 | 15.29G | [Link](https://pan.baidu.com/s/1-Uu8eGgQgceKAwfKo06ZZw?pwd=mth9) |
-| DL-GV-06      | Ground vehicle | Dalian   |       1118 | 5.0G | [Link](https://pan.baidu.com/s/1B3NyoBhGZx1j2XxXspjl1g?pwd=kf9y) |
-| DL-GV-07      | Ground vehicle | Dalian   |        512 | 1.72G | [Link](https://pan.baidu.com/s/1usjxaykVuC09chJc7Y8VKg?pwd=n434) |
+| DL-GV-06      | Ground vehicle | Dalian   |        512 | 1.72G | [Link](https://pan.baidu.com/s/1usjxaykVuC09chJc7Y8VKg?pwd=n434) |
 
 Recommended mirror:
 
