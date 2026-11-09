@@ -18,7 +18,6 @@
 <p align="center">
   <a href="#overview">Overview</a> •
   <a href="#news">News</a> •
-  <a href="#download">Download</a> •
   <a href="#dataset-summary">Dataset Summary</a> •
   <a href="#sensor-suite">Sensor Suite</a> •
   <a href="#data-format">Data Format</a> •
@@ -31,7 +30,7 @@
 
 **M2TD** is a **Multi-Sensor and Multi-Platform Tunnel Dataset** for benchmarking SLAM algorithms in long degraded tunnel environments. The dataset is designed to evaluate localization and mapping robustness under persistent tunnel-specific degradation, including repetitive structures, weak visual texture, poor illumination, limited geometric diversity, and GNSS denial.
 
-M2TD contains **12 sequences** and **6.6 km** of trajectories collected in one unfinished subsea tunnel in **Qingdao, China**, and operational traffic tunnels in **Dalian, China**. The data were collected using three acquisition modes:
+M2TD contains **11 sequences** and **5.5 km** of trajectories collected in one unfinished subsea tunnel in **Qingdao, China**, and operational traffic tunnels in **Dalian, China**. The data were collected using three acquisition modes:
 
 - **UAV-based acquisition**
 - **Handheld acquisition**
@@ -59,50 +58,29 @@ M2TD is intended to support research on:
 
 ---
 
-## Download
+## Dataset Summary
+
+M2TD contains **11 tunnel sequences** with a total trajectory length of **5.5 km**. Sequence lengths are travel distances estimated from the original UWB ranges.
 
 The full dataset is distributed through external storage because ROS2 bag files are too large for direct GitHub hosting.
 
-Lengths are travel distances estimated from the original UWB ranges.
-
-| Sequence ID    | Platform       | Location | Length (m) | Size | Download |
-| -------------- | -------------- | :--------: | :---------: | ---: | :--------: |
-| QD-UAV-01      | UAV            | Qingdao  |        287 | 893M | [Link](https://pan.baidu.com/s/1EiITCcblG6Ieo9OWy4_U_A?pwd=vb2j) |
-| QD-UAV-02      | UAV            | Qingdao  |        198 | 903M | [Link](https://pan.baidu.com/s/1xVGEnOOuXMi5ABN9-bQPFw?pwd=a4a5) |
-| QD-Handheld-01 | Handheld       | Qingdao  |        780 |  11G | [Link](https://pan.baidu.com/s/1uj7uXCt_r4meXEn00R9NKg?pwd=gxj4) |
-| QD-GV-01       | Ground vehicle | Qingdao  |        921 | 8.1G | [Link](https://pan.baidu.com/s/1vG3Yqgl4IZxWlyhL5grK0Q?pwd=9xdk) |
-| DL-Handheld-01 | Handheld       | Dalian   |        318 | 4.2G | [Link](https://pan.baidu.com/s/10rvUB2_B-dreGG40BLoaFA?pwd=7qe2) |
-| DL-GV-01       | Ground vehicle | Dalian   |        292 | 1.6G | [Link](https://pan.baidu.com/s/1cOXQe4XJ41retTOhxby6dQ?pwd=attk) |
-| DL-GV-02       | Ground vehicle | Dalian   |       1108 | 13.38G | [Link](https://pan.baidu.com/s/1DjFPIjGOWf0IWp0CDrkwaA?pwd=ntnx) |
-| DL-GV-03       | Ground vehicle | Dalian   |        510 | 2.2G | [Link](https://pan.baidu.com/s/1lSkF3t7l7bSLTaGTrpGbmw?pwd=8j3p) |
-| DL-GV-04       | Ground vehicle | Dalian   |        410 | 2.1G | [Link](https://pan.baidu.com/s/1RKtGQqij898BTMmNeuo90A?pwd=mucc) |
-| DL-GV-05      | Ground vehicle | Dalian   |        194 | 15.29G | [Link](https://pan.baidu.com/s/1-Uu8eGgQgceKAwfKo06ZZw?pwd=mth9) |
-| DL-GV-06      | Ground vehicle | Dalian   |        512 | 1.72G | [Link](https://pan.baidu.com/s/1usjxaykVuC09chJc7Y8VKg?pwd=n434) |
+| Sequence ID | Platform | Location | Length (m) | Duration (s) | Closed loop | Size | Download |
+| --- | --- | --- | ---: | ---: | :---: | ---: | :---: |
+| QD-UAV-01 | UAV | Qingdao | 287 | 174 | Yes | 893M | [Link](https://pan.baidu.com/s/1EiITCcblG6Ieo9OWy4_U_A?pwd=vb2j) |
+| QD-UAV-02 | UAV | Qingdao | 198 | 213 | Yes | 903M | [Link](https://pan.baidu.com/s/1xVGEnOOuXMi5ABN9-bQPFw?pwd=a4a5) |
+| QD-Handheld-01 | Handheld | Qingdao | 780 | 606 | Yes | 11G | [Link](https://pan.baidu.com/s/1uj7uXCt_r4meXEn00R9NKg?pwd=gxj4) |
+| QD-GV-01 | Ground vehicle | Qingdao | 921 | 457 | Yes | 8.1G | [Link](https://pan.baidu.com/s/1vG3Yqgl4IZxWlyhL5grK0Q?pwd=9xdk) |
+| DL-Handheld-01 | Handheld | Dalian | 318 | 239 | Yes | 4.2G | [Link](https://pan.baidu.com/s/10rvUB2_B-dreGG40BLoaFA?pwd=7qe2) |
+| DL-GV-01 | Ground vehicle | Dalian | 292 | 89 | No | 1.6G | [Link](https://pan.baidu.com/s/1cOXQe4XJ41retTOhxby6dQ?pwd=attk) |
+| DL-GV-02 | Ground vehicle | Dalian | 1108 | 243 | No | 13.38G | [Link](https://pan.baidu.com/s/1DjFPIjGOWf0IWp0CDrkwaA?pwd=ntnx) |
+| DL-GV-03 | Ground vehicle | Dalian | 510 | 123 | No | 2.2G | [Link](https://pan.baidu.com/s/1lSkF3t7l7bSLTaGTrpGbmw?pwd=8j3p) |
+| DL-GV-04 | Ground vehicle | Dalian | 410 | 116 | No | 2.1G | [Link](https://pan.baidu.com/s/1RKtGQqij898BTMmNeuo90A?pwd=mucc) |
+| DL-GV-05 | Ground vehicle | Dalian | 194 | 53 | No | 15.29G | [Link](https://pan.baidu.com/s/1-Uu8eGgQgceKAwfKo06ZZw?pwd=mth9) |
+| DL-GV-06 | Ground vehicle | Dalian | 512 | 98 | No | 1.72G | [Link](https://pan.baidu.com/s/1usjxaykVuC09chJc7Y8VKg?pwd=n434) |
 
 Recommended mirror:
 
 - OneDrive: [Coming soon](#)
-
----
-
-## Dataset Summary
-
-M2TD contains **12 tunnel sequences** with a total trajectory length of **6.6 km**. Sequence lengths are travel distances estimated from the original UWB ranges.
-
-| Sequence ID    | Platform       | Location | Length (m) | Duration (s) |  Closed loop |
-| -------------- | -------------- | -------- | :---------: | :-----------: |  :-----------: |
-| QD-UAV-01      | UAV            | Qingdao  |        287 |          174 |  Yes         |
-| QD-UAV-02      | UAV            | Qingdao  |        198 |          213 |  Yes         |
-| QD-Handheld-01 | Handheld       | Qingdao  |        780 |          606 |  Yes         |
-| QD-GV-01       | Ground vehicle | Qingdao  |        921 |          457 |  Yes         |
-| DL-Handheld-01 | Handheld       | Dalian   |        318 |          239 |  Yes         |
-| DL-GV-01       | Ground vehicle | Dalian   |        292 |           89 |  No          |
-| DL-GV-02       | Ground vehicle | Dalian   |       1108 |          243 |  No          |
-| DL-GV-03       | Ground vehicle | Dalian   |        510 |          123 |  No          |
-| DL-GV-04       | Ground vehicle | Dalian   |        410 |          116 |  No          |
-| DL-GV-05      | Ground vehicle | Dalian   |        194 |           53 |  No          |
-| DL-GV-06      | Ground vehicle | Dalian   |       1118 |          267 |  No          |
-| DL-GV-07      | Ground vehicle | Dalian   |        512 |           98 |  No          |
 
 ### Sequence naming convention
 
@@ -137,7 +115,7 @@ Included sequences:
 
 ### Dalian operational traffic tunnels
 
-The Dalian sequences were collected in operational traffic tunnels with standard infrastructure and lighting. These sequences include long straight tunnel segments and one-way traversals, which are useful for evaluating long-range drift accumulation. The longest sequence, DL-GV-06, extends to 1118 m.
+The Dalian sequences were collected in operational traffic tunnels with standard infrastructure and lighting. These sequences include long straight tunnel segments and one-way traversals, which are useful for evaluating long-range drift accumulation. The longest sequence, DL-GV-02, extends to 1108 m.
 
 Included sequences:
 
@@ -148,7 +126,6 @@ Included sequences:
 - `DL-GV-04`
 - `DL-GV-05`
 - `DL-GV-06`
-- `DL-GV-07`
 
 ---
 
