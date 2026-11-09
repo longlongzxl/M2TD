@@ -73,7 +73,7 @@ Lengths are travel distances estimated from the original UWB ranges.
 | QD-GV-01       | Ground vehicle | Qingdao  |        921 | 8.1G | [Link](https://pan.baidu.com/s/1vG3Yqgl4IZxWlyhL5grK0Q?pwd=9xdk) |
 | DL-Handheld-01 | Handheld       | Dalian   |        318 | 4.2G | [Link](https://pan.baidu.com/s/10rvUB2_B-dreGG40BLoaFA?pwd=7qe2) |
 | DL-GV-01       | Ground vehicle | Dalian   |        292 | 1.6G | [Link](https://pan.baidu.com/s/1cOXQe4XJ41retTOhxby6dQ?pwd=attk) |
-| DL-GV-02       | Ground vehicle | Dalian   |       1108 |  11G | [Link](https://pan.baidu.com/s/1BmPcoc2dl7--Updt5WYDCw?pwd=uckh) |
+| DL-GV-02       | Ground vehicle | Dalian   |       1108 | 13.38G | [Link](https://pan.baidu.com/s/1DjFPIjGOWf0IWp0CDrkwaA?pwd=ntnx) |
 | DL-GV-03       | Ground vehicle | Dalian   |        510 | 2.2G | [Link](https://pan.baidu.com/s/1lSkF3t7l7bSLTaGTrpGbmw?pwd=8j3p) |
 | DL-GV-04       | Ground vehicle | Dalian   |        410 | 2.1G | [Link](https://pan.baidu.com/s/1RKtGQqij898BTMmNeuo90A?pwd=mucc) |
 | DL-GV-05      | Ground vehicle | Dalian   |        194 | 955M | [Link](https://pan.baidu.com/s/1S-pgGUHFRROoBBkqWG_HOg?pwd=qcie) |
